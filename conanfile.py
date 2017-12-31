@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostDate_TimeConan(ConanFile):
     name = "boost_date_time"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-date_time"
+    url = "https://github.com/bincrafters/conan-boost_date_time"
     
     lib_short_names = ["date_time"]
     is_in_cycle_group = True
