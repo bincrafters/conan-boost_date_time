@@ -8,7 +8,8 @@ class BoostDate_TimeConan(ConanFile):
     name = "boost_date_time"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_date_time"
-    
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["date_time"]
     is_in_cycle_group = True
     is_header_only = False
