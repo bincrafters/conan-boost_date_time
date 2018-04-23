@@ -14,6 +14,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_assert
   CONAN_PKG::boost_config
   CONAN_PKG::boost_core
+  CONAN_PKG::boost_date_time
   CONAN_PKG::boost_io
   CONAN_PKG::boost_lexical_cast
   CONAN_PKG::boost_mpl
