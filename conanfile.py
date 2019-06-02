@@ -4,12 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostDate_TimeConan(base.BoostBaseConan):
     name = "boost_date_time"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_date_time"
-    lib_short_names = ["date_time"]
-    cycle_group = "boost_cycle_group_c"
-    b2_requires = ["boost_cycle_group_c"]
+    version = "1.70.0"
